@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-primary: #1ebfc1;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -10,3 +14,73 @@ body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
 }
+
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+/* ================== Header ================== */
+.fixed {
+    top: -42px;
+}
+
+.header {
+    background-color: #fff;
+    position: sticky;
+    padding-top: 50px;
+    padding-bottom: 8px;
+}
+
+.header .nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.header .nav-bar .list {
+    display: flex;
+    margin-left: auto;
+}
+
+.header .list a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 8px 19px;
+}
+
+.header .list a:hover {
+    color: #2f3a3b;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header .actions {
+    margin-left: 158px;
+}
+
+.header .actions .actions-in {
+    color: #494949;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 16px 0;
+}
+
+.header .actions .actions-up {
+    display: inline-block;
+    color: #1ebfc1;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 108px;
+    padding: 16px 0;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+    margin-left: 24px;
+}
+
+/* ================== Hero ================== */
