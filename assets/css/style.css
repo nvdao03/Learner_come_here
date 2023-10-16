@@ -563,3 +563,108 @@ a {
     font-weight: 400;
     margin-top: 11px;
 }
+
+/* ================== People ================== */
+.people {
+    padding-top: 30px;
+    margin-top: 204px;
+    padding-bottom: 30px;
+}
+
+.people .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.people .people-content {
+    width: 36%;
+}
+
+.people .people-content .icon {
+}
+
+.people .people-content .desc {
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    margin-top: 27px;
+}
+
+.people .people-content .student {
+    display: flex;
+    align-items: center;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 33px;
+}
+
+.people .student span {
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    margin-right: 5px;
+}
+
+.people .student strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.people .people-content .arrow-blog {
+    margin-top: 52px;
+}
+
+.people .arrow-blog .arow-left {
+    margin-right: 30px;
+}
+
+.people .people-avatar {
+    position: relative;
+    width: 58%;
+    height: 481px;
+}
+
+.people .people-avatar .avatar {
+    position: absolute;
+}
+
+.people .people-avatar .avatar:first-child {
+    top: 19px;
+    left: 569px;
+    bottom: 352px;
+}
+
+.people .people-avatar .avatar:nth-child(2) {
+    left: 144px;
+    right: 443px;
+    bottom: 389px;
+}
+
+.people .people-avatar .avatar:nth-child(3) {
+    top: 107px;
+    right: 171px;
+    bottom: 139px;
+    left: 273px;
+}
+
+.people .people-avatar .avatar:nth-child(4) {
+    right: 32px;
+    bottom: 29px;
+}
+
+.people .people-avatar .avatar:nth-child(5) {
+    top: 403px;
+    left: 212px;
+    right: 389px;
+    bottom: 0;
+}
+
+.people .people-avatar .avatar:last-child {
+    top: 258px;
+    right: 601px;
+    bottom: 145px;
+}
