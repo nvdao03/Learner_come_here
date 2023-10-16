@@ -411,3 +411,121 @@ a {
     padding-top: 30px;
     margin-top: 70px;
 }
+
+.popular .info .intro {
+    color: #767e7e;
+    font-size: 1.2rem;
+    letter-spacing: 7px;
+    font-weight: 700;
+}
+
+.popular .info .heading {
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.popular .info .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular .info .desc {
+    width: 525px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.77; /* 177.778% */
+    margin-top: 19px;
+}
+
+.popular .info .cta-link {
+    color: #1ebfc1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.popular .list {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+
+.popular .list .item {
+    position: relative;
+    width: 33.33%;
+    height: 517px;
+    flex: 1;
+}
+
+.popular .list .content {
+    position: absolute;
+    width: 325px;
+    padding: 18px 25px 29px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.popular .list .picture {
+    width: 100%;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+    /* opacity: 0.35; */
+    background: #d0efed;
+}
+
+.popular .item .heading {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.popular .item .price {
+    color: #0d1111;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.popular .item strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.popular .item .desc {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+.popular .item .row {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.popular .row .date {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.popular .row .date::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #1ebfc1;
+    border-radius: 50%;
+    margin-right: 10px;
+}
