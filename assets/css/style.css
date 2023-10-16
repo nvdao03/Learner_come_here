@@ -166,6 +166,9 @@ a {
 .hero .cta-group .watch-video {
     width: 62px;
     height: 62px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     border: none;
     border-radius: 50%;
     border-radius: 62px;
@@ -410,6 +413,7 @@ a {
 .popular {
     padding-top: 30px;
     margin-top: 70px;
+    padding-bottom: 30px;
 }
 
 .popular .info .intro {
@@ -528,4 +532,34 @@ a {
     background-color: #1ebfc1;
     border-radius: 50%;
     margin-right: 10px;
+}
+
+/* ================== Stats ================== */
+.stats {
+    padding: 30px 0;
+    margin-top: 205px;
+}
+
+.stats .row {
+    display: flex;
+    justify-content: center;
+    gap: 0 200px;
+}
+
+.stats .row .col {
+    text-align: center;
+}
+
+.stats .row .quantity {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 93px;
+}
+
+.stats .row .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 11px;
 }
