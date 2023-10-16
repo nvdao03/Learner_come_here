@@ -668,3 +668,39 @@ a {
     right: 601px;
     bottom: 145px;
 }
+
+/* ================== cta-blog ================== */
+.cta-blog {
+    width: 100%;
+    padding: 76px 0 88px;
+    margin-top: 100px;
+    background: #def6f5;
+}
+
+.cta-blog .body {
+    display: flex;
+    align-items: center;
+}
+
+.cta-blog .body .info {
+    margin-right: 410px;
+}
+
+.cta-blog .body .heading {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.cta-blog .body .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 18px;
+    line-height: 1.5;
+}
+
+.cta-blog .body .cta-get:hover {
+    opacity: 0.8;
+}
