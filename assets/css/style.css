@@ -332,8 +332,8 @@ a {
 
 /* ================== Features ================== */
 .feature {
-    padding-top: 60px;
-    margin-top: 70px;
+    padding: 30px 0;
+    margin-top: 100px;
 }
 
 .feature .feature-content {
@@ -364,4 +364,50 @@ a {
     font-weight: 400;
     margin-top: 18px;
     line-height: 27px;
+}
+
+.feature .row {
+    display: flex;
+    margin-top: 80px;
+}
+
+.feature .col:first-child {
+    width: 36%;
+}
+
+.feature .col:first-child .desc {
+    width: 168px;
+}
+
+.feature .col:nth-child(2) {
+    width: 41%;
+}
+
+.feature .col:nth-child(2) .desc {
+    width: 223px;
+}
+
+.feature .col:last-child .desc {
+    width: 224px;
+}
+
+.feature .heading {
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 26px;
+}
+
+.feature .desc {
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.68; /* 168.75% */
+    margin-top: 16px;
+}
+
+/* ================== Popular ================== */
+.popular {
+    padding-top: 30px;
+    margin-top: 70px;
 }
