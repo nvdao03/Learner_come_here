@@ -9,11 +9,13 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .btn {
@@ -703,4 +705,70 @@ a {
 
 .cta-blog .body .cta-get:hover {
     opacity: 0.8;
+}
+
+/* ================== Footer ================== */
+.footer {
+    padding: 130px 0 50px;
+    background-color: #fff;
+}
+
+.footer .list {
+    display: flex;
+}
+
+.footer .list .item:first-child {
+    width: 23%;
+}
+
+.footer .list .item:nth-child(2) {
+    width: 20%;
+}
+
+.footer .list .item:nth-child(3) {
+    width: 22%;
+}
+
+.footer .list .item:nth-child(4) {
+    width: 25%;
+}
+
+.footer .list h3 {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.footer .list ul {
+    margin-top: 25px;
+}
+
+.footer .list li {
+    display: flex;
+    align-items: center;
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer .list li + li {
+    margin-top: 18px;
+}
+
+.footer .list .social {
+    margin-right: 9px;
+}
+
+.footer .copyright {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.footer .copyright .license {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 27px;
 }
